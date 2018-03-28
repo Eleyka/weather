@@ -35,14 +35,14 @@ class App extends React.Component {
       <div>
         <Header />
         <Form getWeather={this.getWeather}/>
-        <Weather 
-          icon={this.state.icon}
-          temperature={this.state.temperature}
-          time={this.state.time}
-          city={this.state.city}
-          country={this.state.country}
-        />
-        <CardToday className="col-md-6 col-md-offset-3" />
+          <Weather 
+            icon={this.state.icon}
+            temperature={this.state.temperature}
+            time={this.state.time}
+            city={this.state.city}
+            country={this.state.country}
+          />
+        <CardToday />
         <CardDays />
         <ItemSentation />
       </div>
