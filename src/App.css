@@ -1,19 +1,37 @@
 .App {
   text-align: center;
 }
+body{
+  background-image: url(https://images.pexels.com/photos/847483/pexels-photo-847483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-position: center center;	  
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
-
+/* HEADER */
 .App-header {
-  background-color: #222;
-  height: 150px;
+  color: #222;
+  height: 100px;
   padding: 20px;
   color: white;
+  background-color: #05f2ab;
+  text-align: center;
+  opacity: 0.5;
+}
+.colorheader{
+  color: black;
+}
+/*FIN  HEADER */
+/* CARD */
+.card {
+  margin: 5px 0px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+  background-color: rgba(255, 253, 253, 0.7);
 }
 
+/*FIN DE CARD */
 .App-title {
   font-size: 1.5em;
 }
@@ -22,7 +40,3 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
