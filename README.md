@@ -1,5 +1,7 @@
 # Feel Weather
 
+![Sin titulo](assets/images/actual.png)
+
 Es una aplicación móvil que te permitirá conocer sobre el clima en distintos lugares del país y, además, podrás recibir sugerencias cuando te hayas unido a la aplicación. ¿En qué consisten estas sugerencias? En poder decirte como te vas a sentir respecto a ciertos grados de temperatura. 
 
 
@@ -108,5 +110,29 @@ Con el feedback recibido se realizó este prototipo de alta fidelidad, nuestra a
 
 ![Sin titulo](assets/images/demo.PNG)
 
+## Proceso Front End
+
+El proceso de Front End estuvo a cargo de Vanessa Mendoza, Eleyne Ramirez y Leslie Nomberto. 
+
+### Herramientas usadas:
+
+* Bootstrap
+* React
+* HTML 5
+* CSS
+* API Wonderground
+
+### Funcionalidad:
+
+* Obtener sensación del clima del usuario.
+* Sensación del usuario igualar con API del clima.
+* Mostrar como se sentirá el usuario.
+
+### Elaboración:
+
+Se trabajo en equipo para obtener los datos del usuario desde la API para posteriormente guardalos en el Local Storage.
+
+![Sin titulo](assets/images/actual.png)
+![Sin titulo](assets/images/busqueda.png)
 
 
