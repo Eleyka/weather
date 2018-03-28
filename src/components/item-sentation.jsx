@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './item-paint.css';
+import './item-sensation.css';
 
 const sensations = [
   {
