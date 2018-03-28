@@ -1,11 +1,13 @@
 import React from 'react';
+import '../App.css';
+
 
 class Header extends React.Component {
   render() {
     return (
-      <div>
-        <h1>API CLIMA</h1>
-        <p>Hackaton final</p>
+      <div className="App-header">
+        <h1 className="colorheader">Feel Weather</h1>
+        <p  className="colorheader">Hackaton final</p>
       </div>
     );
   }
