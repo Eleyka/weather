@@ -1,21 +1,26 @@
+.card-items {
+  border: 1px solid rgb(218, 209, 198);
+  background-color: #fff;
+  padding: 1em;
+  margin: 2em;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+/* #o5f2ab */
+
 .prop-buttons {
+  width: 50%;
+  height: auto;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.btn-sun {
-  background-image: url(../assets/sol.png);
-}
-
-.btn-rainy {
-  background-image: url(../assets/lluvia.png);
-}
-
-.btn-tempered {
-  background-image: url(../assets/templado.png);
-}
-
-.btn-perfect {
-  background-image: url(../assets/perfecto.png);
+.style-text {
+  color: #000;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Cochin, Georgia, Times, 'Times New Roman';
+  padding: 1em;
 }
