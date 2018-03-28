@@ -1,0 +1,21 @@
+.prop-buttons {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-sun {
+  background-image: url(../assets/sol.png);
+}
+
+.btn-rainy {
+  background-image: url(../assets/lluvia.png);
+}
+
+.btn-tempered {
+  background-image: url(../assets/templado.png);
+}
+
+.btn-perfect {
+  background-image: url(../assets/perfecto.png);
+}
