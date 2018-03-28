@@ -4,7 +4,7 @@ import Form from './components/Form';
 import CardToday from './components/cardtoday';
 import CardDays from './components/cardays';
 import Weather from './components/Weather';
-import ItemSensation from './components/item-sensation';
+import ItemSentation from './components/itemSentation';
 
 const API_KEY = '7c32c869234dcb12';
 
@@ -44,6 +44,7 @@ class App extends React.Component {
         />
         <CardToday className="col-md-6 col-md-offset-3" />
         <CardDays />
+        <ItemSentation />
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './item-sensation.css';
+import './itemSensation.css';
 
 const sensations = [
   {
@@ -39,7 +39,7 @@ const sensations = [
   },
 ]
 
-class ItemSensation extends React.Component {
+class ItemSentation extends React.Component {
   constructor(props) {
     super(props);
     var storedClicks = 0;
@@ -65,13 +65,14 @@ class ItemSensation extends React.Component {
     const arraySensations = sensations.map( (sensation) => <button type="button" className="card-items" onClick={() => this.click()}><p className="style-text">{sensation.nameSensation}</p><img src={sensation.imageSensation} className="prop-buttons"/><p className="style-text">{sensation.rangemin} - {sensation.rangemax}</p></button>)
     return (
       <div>
-        <h2>Click the button a few times and refresh page</h2>
+        <h2 className="title-text mt-5 my-5">Elige la sensaci&oacute;n que sientes</h2>
         {arraySensations}
-        {/* <button onClick={this.click}>Click me</button> Counter {this.state.clicks} */}
       </div>
     );
   }
 }
+
+export default ItemSentation;
 
 // Intento de guardar data en local storage
 // class ItemSensation extends React.Component {
@@ -141,5 +142,3 @@ class ItemSensation extends React.Component {
 //     );
 //   }
 // }
-
-export default ItemSensation;

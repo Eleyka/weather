@@ -9,8 +9,6 @@
 
 }
 
-/* #o5f2ab */
-
 .prop-buttons {
   width: 60%;
   height: auto;
@@ -25,4 +23,12 @@
   font-size: 18px;
   letter-spacing: 3px;
   padding: 1em;
+}
+
+.title-text {
+  text-align: center;
+  background-color: aquamarine;
+  padding: 1em 0;
+  border: 1px solid #fff;
+  opacity: .6;
 }
