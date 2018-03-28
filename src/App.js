@@ -41,7 +41,7 @@ class App extends React.Component {
           city={this.state.city}
           country={this.state.country}
         />
-        <CardToday />
+        <CardToday className="col-md-6 col-md-offset-3" />
         <CardDays />
       </div>
     );

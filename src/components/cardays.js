@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import {weatherApi} from '../api'
+import React, { Component } from 'react'
+import { weatherApi } from '../api'
 import '../App.css';
 
 class Cardays extends Component {
@@ -46,29 +46,31 @@ class Cardays extends Component {
         {
           forcasts.map(forcast => {
             return (
-              <div className="col-md-2" key={forcast.period}>
-                <div className="card">
-                  <div className="card-block">
-                    <p className="card-text">
-                      {forcast.date.weekday} {forcast.date.monthname} {forcast.date.day}<br />
-                      <img src={forcast.icon_url} alt="weather" />
-                    </p>
-                    <h4>High: {forcast.high.fahrenheit} ({forcast.high.celsius})&deg;</h4>
-                    <h4>Low: {forcast.low.fahrenheit} ({forcast.low.celsius})&deg;</h4>
+
+                  <div className="col-md-3" key={forcast.period}>
+                    <div className="card">
+                      <div className="card-block">
+                        <p className="card-text">
+                          {forcast.date.weekday} {forcast.date.monthname} {forcast.date.day}<br />
+                          <img src={forcast.icon_url} alt="weather" />
+                        </p>
+                        <h4>High: {forcast.high.fahrenheit} ({forcast.high.celsius})&deg;</h4>
+                        <h4>Low: {forcast.low.fahrenheit} ({forcast.low.celsius})&deg;</h4>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
+
             )
           })
         }
       </div>
     )
-  } 
+  }
   render() {
     if (this.state.loaded) {
       return (
         <div>
-          {this.renderForcast()} 
+          {this.renderForcast()}
         </div>
       )
     } else {

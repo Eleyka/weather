@@ -39,7 +39,7 @@ class CardToday extends Component {
   renderWeather() {
     return (
       
-        <div className="col-md-6 ">
+        <div className="col-md-12 flex-center">
           <div className="card">
             <div className="card-block">
               <h3>Ubicación Actual</h3>

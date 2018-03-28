@@ -5,10 +5,12 @@ import '../App.css';
 class Header extends React.Component {
   render() {
     return (
-      <div className="App-header">
+      <nav className="navbar App-header">
+        <a className="navbar-brand" href="#">
         <h1 className="colorheader">Feel Weather</h1>
         <p  className="colorheader">Hackaton final</p>
-      </div>
+        </a>
+      </nav>
     );
   }
 };
