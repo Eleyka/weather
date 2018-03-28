@@ -19,7 +19,7 @@ const sensations = [
   {
     nameSensation: 'Mucho calor',
     IDSensation: 2,
-    imageSensation: 'https://kirken.no/imageservice/images/3cf8be4f0a09464e99c4505b92ec1147/f4ee19b12bc7459d9b7535f3748751c2.jpg?scale=both&width=400&height=-1',
+    imageSensation: 'https://lh5.ggpht.com/DCSIqyb4qnMnxTmbBm6rLv85u7g0ZCgDwT16nVeRI1OXE58v9QvD9YtGCUIK_z9mWp0=w300',
     rangemin: "30°",
     rangemax: '35°',
   },
@@ -33,7 +33,7 @@ const sensations = [
   {
     nameSensation: 'Estoy bien',
     IDSensation: 4,
-    imageSensation: 'https://pbs.twimg.com/profile_images/946837368161566720/kwH0iUa-.jpg',
+    imageSensation: 'http://www.iquiz.sg/uploadfolder/quizzes/coverimages/1dJMfZq1_sunny.png',
     rangemin: "21°",
     rangemax: '22°',
   },
